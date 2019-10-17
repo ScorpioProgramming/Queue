@@ -81,7 +81,7 @@ namespace Stack
         {
             int[] temp = stack;
 
-            stack = new int[temp.Length];
+            stack = new int[count];
 
             for (int i = 1; i < count; i++)
             {
