@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Samuel Berg\\source\\repos\\Stack\\Stack\\Stack\\Stack.csproj",
+      "projectUniqueName": "C:\\Users\\Samuel Berg\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\Stack.csproj",
       "projectName": "Stack",
-      "projectPath": "C:\\Users\\Samuel Berg\\source\\repos\\Stack\\Stack\\Stack\\Stack.csproj",
+      "projectPath": "C:\\Users\\Samuel Berg\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\Stack.csproj",
       "packagesPath": "C:\\Users\\Samuel Berg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Samuel Berg\\source\\repos\\Stack\\Stack\\Stack\\obj\\",
+      "outputPath": "C:\\Users\\Samuel Berg\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
