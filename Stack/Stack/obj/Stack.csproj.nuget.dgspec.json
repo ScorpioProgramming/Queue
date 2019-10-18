@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Samuel Berg\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\Stack.csproj": {}
+    "C:\\Users\\Elev\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\Stack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Samuel Berg\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\Stack.csproj": {
+    "C:\\Users\\Elev\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\Stack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samuel Berg\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\Stack.csproj",
+        "projectUniqueName": "C:\\Users\\Elev\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\Stack.csproj",
         "projectName": "Stack",
-        "projectPath": "C:\\Users\\Samuel Berg\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\Stack.csproj",
-        "packagesPath": "C:\\Users\\Samuel Berg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samuel Berg\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\obj\\",
+        "projectPath": "C:\\Users\\Elev\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\Stack.csproj",
+        "packagesPath": "C:\\Users\\Elev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Elev\\Source\\Repos\\ScorpioProgramming\\Queue\\Stack\\Stack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Samuel Berg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Elev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -44,23 +42,16 @@
         "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

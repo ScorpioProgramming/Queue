@@ -18,3 +18,14 @@ C:\Users\Samuel Berg\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\obj\Debug
 C:\Users\Samuel Berg\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\obj\Debug\netcoreapp2.1\Stack.AssemblyInfo.cs
 C:\Users\Samuel Berg\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\obj\Debug\netcoreapp2.1\Stack.dll
 C:\Users\Samuel Berg\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\obj\Debug\netcoreapp2.1\Stack.pdb
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\bin\Debug\netcoreapp2.1\Stack.deps.json
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\bin\Debug\netcoreapp2.1\Stack.runtimeconfig.json
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\bin\Debug\netcoreapp2.1\Stack.runtimeconfig.dev.json
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\bin\Debug\netcoreapp2.1\Stack.dll
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\bin\Debug\netcoreapp2.1\Stack.pdb
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\obj\Debug\netcoreapp2.1\Stack.csprojAssemblyReference.cache
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\obj\Debug\netcoreapp2.1\Stack.csproj.CoreCompileInputs.cache
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\obj\Debug\netcoreapp2.1\Stack.AssemblyInfoInputs.cache
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\obj\Debug\netcoreapp2.1\Stack.AssemblyInfo.cs
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\obj\Debug\netcoreapp2.1\Stack.dll
+C:\Users\Elev\Source\Repos\ScorpioProgramming\Queue\Stack\Stack\obj\Debug\netcoreapp2.1\Stack.pdb

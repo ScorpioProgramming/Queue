@@ -77,22 +77,14 @@ namespace Stack
         /// <summary>
         /// Tar bort första värdet i stacken och flyttar alla element ett steg framåt
         /// </summary>
-        public int Dequeue()
+        public void Dequeue()
         {
-            int[] temp = stack;
-
-            stack = new int[count];
-
-            for (int i = 1; i < count; i++)
+            for (int i = 0; i < count; i++)
             {
-                for (int j = 0; j < count; j++)
-                {
-                    stack[j] = temp[i];
-                }
+                stack[i] = stack[i + 1];
             }
 
             count--;
-            return stack[count];
         }
 
         /// <summary>

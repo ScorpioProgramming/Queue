@@ -11,9 +11,13 @@ namespace Stack
             stack.Enqueue(2);
             stack.Enqueue(13);
             stack.Enqueue(40);
-            Console.WriteLine(stack.Peek());    // 2 ska skrivas och skrivs???
-            stack.Dequeue();                    // Dequeue() måste vara fel på.
-            Console.WriteLine(stack.Peek());    // 13 ska skrivas men det blir 40????
+            Console.WriteLine(stack.Peek());
+            stack.Dequeue();
+            Console.WriteLine(stack.Peek());
+            stack.Enqueue(21);
+            stack.Dequeue();
+            stack.Dequeue();
+            Console.WriteLine(stack.Peek());
             stack.Clear();
         }
     }
