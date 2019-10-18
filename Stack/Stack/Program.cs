@@ -7,20 +7,20 @@ namespace Stack
     {
         static void Main(string[] args)
         {
-            Stack stack = new Stack(10);
+            Queue queue = new Queue(10);
 
             // Test kod som visar att det fungerar
-            stack.Enqueue(2);
-            stack.Enqueue(13);
-            stack.Enqueue(40);
-            Console.WriteLine(stack.Peek());
-            stack.Dequeue();
-            Console.WriteLine(stack.Peek());
-            stack.Enqueue(21);
-            stack.Dequeue();
-            stack.Dequeue();
-            Console.WriteLine(stack.Peek());
-            stack.Clear();
+            queue.Enqueue(2);
+            queue.Enqueue(13);
+            queue.Enqueue(40);
+            Console.WriteLine(queue.Peek());
+            queue.Dequeue();
+            Console.WriteLine(queue.Peek());
+            queue.Enqueue(21);
+            queue.Dequeue();
+            queue.Dequeue();
+            Console.WriteLine(queue.Peek());
+            queue.Clear();
         }
     }
 }

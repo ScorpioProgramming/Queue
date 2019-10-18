@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Stack
 {
-    class Stack
+    class Queue
     {
         /// <summary>
         /// Själva stacken
         /// </summary>
-        private int[] stack;
+        private int[] queue;
 
         /// <summary>
         /// Stackpekaren som också håller reda på hur många element det finns i stacken
@@ -21,44 +21,18 @@ namespace Stack
 
         public int this[int i]
         {
-            get { return stack[i]; }
-            set { stack[i] = value; }
+            get { return queue[i]; }
+            set { queue[i] = value; }
         }
 
-        public Stack()
+        public Queue()
         {
-            stack = new int[10];
+            queue = new int[10];
         }
 
-        public Stack(int size)
+        public Queue(int size)
         {
-            stack = new int[size];
-        }
-
-        /// <summary>
-        /// Lägger till element överst i stacken
-        /// </summary>
-        /// <param name="value"></param>
-        public void Push(int value)
-        {
-            if (stack.Length == count)
-                ReSize((int)(count * 1.3));
-
-            stack[count] = value;
-            count++;
-        }
-
-        /// <summary>
-        /// Tar bort översta elementet i stacken
-        /// </summary>
-        /// <returns></returns>
-        public int Pop()
-        {
-            count--;
-            if (count == stack.Length / 2 && stack.Length > 100)
-                ReSize((int)(count * 1.3));
-
-            return stack[count];
+            queue = new int[size];
         }
 
         /// <summary>
@@ -67,10 +41,10 @@ namespace Stack
         /// <param name="value"></param>
         public void Enqueue(int value)
         {
-            if (stack.Length == count)
+            if (queue.Length == count)
                 ReSize((int)(count * 1.3));
 
-            stack[count] = value;
+            queue[count] = value;
             count++;
         }
 
@@ -81,25 +55,19 @@ namespace Stack
         {
             for (int i = 0; i < count; i++)
             {
-                stack[i] = stack[i + 1];
+                queue[i] = queue[i + 1];
             }
 
             count--;
         }
 
         /// <summary>
-        /// Returnerar översta värdet i stacken utan att ta bort det
+        /// Retunerar det första värdet i stackens
         /// </summary>
         /// <returns></returns>
-        public int Peek_end()
-        {
-            return stack[count - 1];
-        }
-
-
         public int Peek()
         {
-            return stack[0];
+            return queue[0];
         }
 
         /// <summary>
@@ -108,13 +76,13 @@ namespace Stack
         /// <param name="size">Nya storleken på stacken</param>
         private void ReSize(int size)
         {
-            int[] temp = stack;
+            int[] temp = queue;
 
-            stack = new int[size];
+            queue = new int[size];
 
             for (int i = 0; i < count; i++)
             {
-                stack[i] = temp[i];
+                queue[i] = temp[i];
             }
         }
 
@@ -125,7 +93,7 @@ namespace Stack
         public void Clear()
         {
             count = 0;
-            stack = new int[10];
+            queue = new int[10];
         }
     }
 }
