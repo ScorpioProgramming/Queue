@@ -8,6 +8,8 @@ namespace Stack
         static void Main(string[] args)
         {
             Stack stack = new Stack(10);
+
+            // Test kod som visar att det fungerar
             stack.Enqueue(2);
             stack.Enqueue(13);
             stack.Enqueue(40);
