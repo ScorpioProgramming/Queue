@@ -51,14 +51,18 @@ namespace Stack
         /// <summary>
         /// Tar bort första värdet i stacken och flyttar alla element ett steg framåt
         /// </summary>
-        public void Dequeue()
+        public int Dequeue()
         {
+            int rem = queue[0];
+
             for (int i = 0; i < count; i++)
             {
                 queue[i] = queue[i + 1];
             }
 
             count--;
+
+            return rem;
         }
 
         /// <summary>
